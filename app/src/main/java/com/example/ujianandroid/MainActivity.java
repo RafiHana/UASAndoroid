@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent_list = new Intent(MainActivity.this, ListActivity.class);
 
+
         btnSimpan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
